@@ -1,4 +1,4 @@
-## this file is for recursive algorithm 
+
 
 def fac(n:int)->int:
     if (n==0|n==1):
@@ -10,5 +10,5 @@ def fac(n:int)->int:
 
 
     if __name__ =='__main__':
-        fac(5)
-    
+        result = fac(5)
+        print(f"{result}")
